@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* EVNIVA Colors */
+
+  --color-evniva-teal: #06272a;
+  --color-evniva-surface: #0b3437;
+
+  --color-evniva-cream: #f8f5ed;
+  --color-evniva-card: #fffdf8;
+
+  --color-evniva-coral: #ff5a36;
+  --color-evniva-coral-hover: #ff7a45;
+
+  --color-evniva-text: #102022;
+  --color-evniva-muted: #7c8988;
+
+  --color-evniva-white: #ffffff;
+
+  /* EVNIVA Typography */
+
+  --font-sans: "Manrope", sans-serif;
+  --font-display: "DM Serif Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-evniva-cream);
+  color: var(--color-evniva-text);
+  font-family: var(--font-sans);
+}
